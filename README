@@ -4,11 +4,11 @@ LetSlide lets you create fancy slides/presentations by simply putting in text.
 
 Forget the layout, just type in the content. LetSlide will do the rest: transform the markdown into slides and give you a link to the full presentation.
 
-Check it out at [http://letslide.com](http://letslide.com).
+Check it out at http://letslide.com.
 
 # HTML5 Presentation
 
-What you get is an [HTML5 Presentation](http://slides.html5rocks.com/).
+What you get is an HTML5 Presentation (http://slides.html5rocks.com/).
 
 You can instantly share the slides with anyone in the world. Just send them a link.
 
@@ -18,6 +18,6 @@ LetSlide is based on [Landslide](https://github.com/adamzap/landslide). Landslid
 
 LetSlide also uses other fine technologies:
 
- * [Flask](http://flask.pocoo.org/)
- * [Twitter Bootstrap](http://twitter.github.com/bootstrap/)
+ * http://flask.pocoo.org/
+ * http://twitter.github.com/bootstrap/
 
