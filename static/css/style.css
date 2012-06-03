@@ -1,0 +1,14 @@
+
+textarea {
+    width: 100%;
+}
+
+h1, h2, h3, p {
+    margin-bottom: 1em;
+}
+
+footer {
+    padding: 2px 4px;
+    color: #333;
+}
+

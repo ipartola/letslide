@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% block body %}
+
+{% if slug %}
+<p>You can acces your slides at <a href="{{ slides_url }}" target="{{ slug }}">{{ slides_url }}</a></p>
+{% endif %}
+
+{% include 'form.html' %}
+
+{% endblock %}

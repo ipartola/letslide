@@ -1,0 +1,7 @@
+<form action="{{ url_for('edit', slug=slug) }}" method="post" class="markdown-form">
+    <dl>
+        <dd><textarea name="source" rows="25" cols="90">{{ source }}</textarea></dd>
+
+        <dd><input type="submit" value="Save"></dd>
+    </dl>
+</form>

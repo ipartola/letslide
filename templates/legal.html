@@ -1,0 +1,83 @@
+{% extends "layout.html" %}
+{% block title %}Legal{% endblock %} 
+{% block body %}
+
+<ul>
+    <li><a href="#tos">Terms of services</a></li>
+    <li><a href="#privacy">Privacy Policy</a></li>
+</ul>
+
+<h2><a name="tos">Terms of Service</a></h2>
+
+<p>These Terms of Use are a legal document designed to protect your rights and the rights of Ridgbit LLC (hereafter, the Developer), with regards to the Appointment Reminder service, software, documentation, and incidental intellectual property (hereafter, LetSlide). Using LetSlide constitutes acceptance of these terms.</p>
+
+<p>Human readable summary: You should read this whole document, because it is a contract and you are bound by the whole contract.  However, we like having plain language which summarizes some of the important terms:</p>
+
+<ul class="styled">
+    <li>We get to terminate this agreement at any time, for any reason. (Basically, if some bad apple is in danger of spoiling everyone's use of the service, we need the legal cover to shoot first and ask questions to their lawyers later.)</li>
+    <li>You may not break any laws in using the service.</li>
+</ul>
+
+<h3>Description of Service and Parties:</h3>
+
+<p>LetSlide is a service for creating and hosting online slide presentations.</p>
+
+<p>You may not use the service if you are under 13 years of age.</p>
+
+<h3>Description of Agreement:</h3>
+
+<p>These terms of service are available online at <a href="{{ url_for('legal') }}">http://letslide.com/legal</a>. We may update them at any time, with no notice to you. Continuing to use the service after we have updated them constitutes acceptance of the new Terms of Service.</p>
+
+<h3>Intellectual Property Rights:</h3>
+
+<p>All rights in LetSlide, the website, and related documentation are owned and/or licensed by the Developer.  You are hereby granted a non-exclusive right to make use of the service, and (if appropriate) to interoperate with the service through such mechanisms as we may provide for you to do so, in consideration of your payment of the monthly service fee.  Your license to use the service does not entitle you to ownership of the underlying intellectual property.</p>
+
+<h3>Prohibited Actions:</h3>
+
+<p>You are forbidden from:</p>
+
+<ul class="styled">
+    <li>Using the service in a manner contrary to the law.</li>
+    <li>Using the service in any manner which disrupts Developer's operations or any other users' use of the service.</li>
+    <li>Using the service to disrupt any service in any way.</li>
+    <li>Taking any forbidden action with the service immediately terminates your license to use the service.</li>
+</ul>
+
+<h3>Termination Of Service:</h3>
+
+<p>Developer may terminate your use of the service at any time, for any reason. Developer may deny anyone use of the service at any time, for any reason.  You may cancel your use of the service at any time, either through the service itself or by sending an email to <a href="mailto:support@letslide.com">support@letslide.com</a>. Regardless of which party terminates the use of the service, unused time immediately expires, and is not eligible for a refund except as described below.<p>
+
+<h3>Limitation Of Liability:</h3>
+
+<p>THE SERVICE IS SOLD "AS IS" AND "WITH ALL FAULTS". THE DEVELOPER MAKES NO WARRANTY THAT IT IS FREE OF DEFECTS OR IS SUITABLE FOR ANY PARTICULAR PURPOSE. IN NO EVENT SHALL THE DEVELOPER BE RESPONSIBLE FOR LOSS OR DAMAGES ARRISING FROM THE USE OF THE SERVICE, INCLUDING BUT NOT LIMITED TO ANY INDIRECT, PUNITIVE, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES. THE CUSTOMER IS SOLELY RESPONSIBLE FOR ENSURING THAT THEIR USE OF THE SOFTWARE IS IN ACCORDANCE WITH THE LAW OF THEIR JURISDICTION.</p>
+
+<h3>Privacy:</h3>
+
+<p>Developer makes commercially reasonable attempts to protect the privacy of data you enter into the service. Developer does not warrant that the measures taken will necessarily satisfy any particular legal requirement in your jurisdiction. Developer will not expose data which you enter to other parties with the following exceptions:</p>
+
+<ul class="styled">
+    <li>Developer will obey lawful instructions to disclose information issued by any competent jurisdiction.</li>
+    <li>Developer expressly disclaims confidentiality of any information which is transmitted to and from LetSlide in any manner.</li>
+</ul>
+
+<h2><a name="privacy">Privacy Policy</a></h2>
+
+<p>Ridgebit LLC (we, us) respects its clients' (you, your) privacy and treats private information with utmost care. This document describes exactly what information is collected and what it is used for.</p>
+
+<p>During routine use of this service we store:</p>
+
+<ul class="styled">
+    <li>Your IP address</li>
+    <li>Operating system, type of browser, installed plugins, etc.</li>
+    <li>The contents of your slides</li>
+</ul>
+
+<p>We collect and store this information in order to make the website functional as well as tracing any errors that occur in our system, and to help mitigate any sort of abuse attempts against LetSlide.<p>
+
+<h3>Misc</h3>
+
+<p>In addition to the above mentioned collected information, we store general web server logs that are rotated at most one month after they are stored. We also store e-mails of anyone who sends us e-mail or fills out the contact form. Any other information you voluntarily submit to us may be stored by us.</p>
+
+<p>We reserve the right to make changes to this policy. Any changes to this policy will be posted.</p>
+
+{% endblock %}
