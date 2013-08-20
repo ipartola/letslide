@@ -1,3 +1,4 @@
 *.pyc
 uploads/*
 fabfile.py
+.virtualenv
