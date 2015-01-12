@@ -4,7 +4,7 @@ from landslide.generator import Generator
 
 app = Flask(__name__)
 app.debug = True
-app.secret_key = r'Y9cOW4PRLqj\f1AGn@uu6bgYuRXSx82DZ<jf46Ft,OgUdu,DpL&XgNGG$9H7J9h8'
+app.secret_key = os.environ.get('LETSLIDE_SECRET_KEY')
 
 STORAGE_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'uploads')
 
