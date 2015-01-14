@@ -32,6 +32,10 @@ def sanitize_filename(filename):
 @app.route('/edit/<slug>', methods=['GET', 'POST',])
 def edit(slug=None):
     if request.method == 'POST':
+        captcha_field = request.form['name']
+        if captcha_field != 'let-me-pass':
+            return make_response('Bad request', 400)
+
         slug = store_presentation(request.form['source'], slug)
 
         return redirect(url_for('edit', slug=slug))

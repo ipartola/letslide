@@ -1,7 +1,15 @@
 <form action="{{ url_for('edit', slug=slug) }}" method="post" class="markdown-form">
     <dl>
         <dd><textarea name="source" rows="25" cols="90">{{ source }}</textarea></dd>
+        <dd style="display: none;"><input type="text" name="name" value="Hello" id="let-me-pass"></dd>
 
         <dd><input type="submit" value="Save"></dd>
     </dl>
 </form>
+
+<script>
+    setTimeout(function() {
+        document.getElementById('let-me-pass').value = 'let-me-pass';
+    }, 300);
+</script>
+
